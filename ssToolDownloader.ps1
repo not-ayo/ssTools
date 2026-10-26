@@ -9,12 +9,10 @@
 
 $ProgressPreference = 'SilentlyContinue'
 
-# ── Silent process killer (absolutely no output) ─────────────────────────────
+# ── recorder killer ─────────────────────────────
 
 $forbiddenProcesses = @(
-    "chrome","firefox","msedge","opera","opera_gx","brave","vivaldi",
-    "browser","waterfox","librewolf","palemoon","tor","torbrowser",
-    "chromium","ungoogled-chromium","epicbrowser","slimjet","comodo",
+
     "obs","obs32","obs64","streamlabs","camtasia","bandicam","xsplit",
     "fraps","action","dxtory","sharex","screenrec","flashback","bdcam",
     "gamebar","xboxgamebar","gamebarpresencewriter","broadcastdvr",
@@ -156,16 +154,16 @@ $Groups = [ordered]@{
         'https://www.nirsoft.net/utils/usbdrivelog.zip'
     )
     'Eric Zimmerman' = @(
-        'https://download.ericzimmermanstools.com/net9/PECmd.zip'
-        'https://download.ericzimmermanstools.com/net9/MFTExplorer.zip'
-        'https://download.ericzimmermanstools.com/net9/JLECmd.zip'
-        'https://download.ericzimmermanstools.com/net9/SrumECmd.zip'
-        'https://download.ericzimmermanstools.com/net9/bstrings.zip'
-        'https://download.ericzimmermanstools.com/net9/RecentFileCacheParser.zip'
-        'https://download.ericzimmermanstools.com/net9/RegistryExplorer.zip'
-        'https://download.ericzimmermanstools.com/net9/JumpListExplorer.zip'
-        'https://download.ericzimmermanstools.com/net9/ShellBagsExplorer.zip'
-        'https://download.ericzimmermanstools.com/net9/TimelineExplorer.zip'
+        'https://download.ericzimmermanstools.com/net/PECmd.zip'
+        'https://download.ericzimmermanstools.com/net/MFTExplorer.zip'
+        'https://download.ericzimmermanstools.com/net/JLECmd.zip'
+        'https://download.ericzimmermanstools.com/net/SrumECmd.zip'
+        'https://download.ericzimmermanstools.com/net/bstrings.zip'
+        'https://download.ericzimmermanstools.com/net/RecentFileCacheParser.zip'
+        'https://download.ericzimmermanstools.com/net/RegistryExplorer.zip'
+        'https://download.ericzimmermanstools.com/net/JumpListExplorer.zip'
+        'https://download.ericzimmermanstools.com/net/ShellBagsExplorer.zip'
+        'https://download.ericzimmermanstools.com/net/TimelineExplorer.zip'
         'https://builds.dotnet.microsoft.com/dotnet/Sdk/9.0.308/dotnet-sdk-9.0.308-win-x64.exe'
     )
     'Generic Tools' = @(
@@ -181,6 +179,9 @@ $Groups = [ordered]@{
         'https://github.com/Yamato-Security/hayabusa/releases/download/v3.7.0/hayabusa-3.7.0-win-x64.zip'
         'https://storage.googleapis.com/mfi-files/free_tools/MagnetRAMCapture/MRCv120.exe'
         'https://github.com/sadreck/Spartacus/releases/download/v2.2.2/Spartacus-v2.2.2-x64.zip'
+	'https://github.com/TheCruZ/BootViewer/releases/download/v1.1.1/BootViewer-amd64.exe'
+	'https://github.com/MeowTonynoh/MeowClientFucker/releases/download/V1.1/MeowClientFucker.exe'
+
     )
     'Red Lotus' = @(
         'https://github.com/ItzIceHere/RedLotus-Task-Sentinel/releases/download/RL/RedLotusTaskSentinel.exe'
@@ -199,11 +200,12 @@ $Groups = [ordered]@{
         'https://detect.ac/tool/BamParser++'
         'https://detect.ac/tool/AmcacheParser++'
         'https://detect.ac/tool/BrowserDownloadsView++'
+	'https://detect.ac/tool/Collector++'
     )
     'orbdiff+' = @(
         'https://github.com/Orbdiff/USNJournal_CLI/releases/download/v1.0/Journal_CLI.exe'
         'https://github.com/Orbdiff/Fileless/releases/download/v1.3/fileless.exe'
-        'https://github.com/praiselily/HardlinkFinder/releases/download/Tools/hardlink.exe'
+        'https://github.com/Orbdiff/StringsParser/releases/download/v1.2.1b/stringsparser.1.2.1b.exe'
     )
 }
 
